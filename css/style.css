@@ -509,6 +509,7 @@ img {
 
 /* Socials */
 .footer-socials-title {
+  display: block;
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -601,6 +602,17 @@ img {
   border: 1px solid var(--modal-btn-brdr);
 
   cursor: pointer;
+}
+
+/**
+  |============================
+  | Register form
+  |============================
+*/
+
+.register-form-title {
+  display: block;
+  text-align: center;
 }
 
 /**
