@@ -511,7 +511,7 @@ img {
 
 /* Socials */
 .footer-socials {
-  margin-right: 93px;
+  margin-right: auto;
 }
 
 .footer-socials-title {
@@ -565,8 +565,12 @@ img {
   margin-bottom: 20px;
 }
 
-.subscribe-form-box {
+.subscribe-form {
   display: flex;
+}
+
+.subscribe-form-field {
+  margin-right: 12px;
 }
 
 .subscribe-form-input {
@@ -578,7 +582,7 @@ img {
   border-radius: 4px;
   background-color: transparent;
   outline: transparent;
-  margin-right: 12px;
+  color: var(--info-txt-cl);
 }
 
 .subscribe-form-input::placeholder {
@@ -707,6 +711,9 @@ img {
   display: block;
   margin-bottom: 10px;
 }
+.register-form-field:last-child {
+  margin-bottom: 0;
+}
 
 .register-form-label {
   display: block;
@@ -805,6 +812,11 @@ img {
 
 .register-form-checkbox:checked + .checkbox-icon .icon-unchecked {
   opacity: 0;
+}
+
+.register-form-checkbox:focus + .checkbox-icon {
+  border: 1px solid var(--blue-cl);
+  border-radius: 2px;
 }
 
 .register-form-desc {
